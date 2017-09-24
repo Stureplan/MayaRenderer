@@ -39,9 +39,7 @@ MStatus LoadRenderer::doIt(const MArgList&)
 {
 	std::thread t(startup);
 	t.join();
-	
-	
-	MGlobal::displayInfo("Hello");
+	MGlobal::displayInfo("Thread started");
 
 
 
