@@ -15,5 +15,5 @@ void log_error(std::string error)
 
 void log_warning(std::string warning)
 {
-	MGlobal::displayError(warning.c_str());
+	MGlobal::displayWarning(warning.c_str());
 }
